@@ -1,0 +1,228 @@
+body {
+ margin: 2%;
+}
+#navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  gap: 350px;
+}
+#valona {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+.icons {
+  gap: 10px;
+}
+.fallsummer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.inspiration {
+  display: flex;
+  flex-direction: row;
+}
+.droworchid{
+  display: flex;
+  flex-direction: row;
+}
+.inhouse {
+  width: 120px;
+}
+.plants {
+  display: flex;
+  flex-direction: row;
+}
+.OFF {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.store {
+  width: 200px;
+}
+.house {
+  display: flex;
+  flex-direction: row;
+}
+.potted {
+  display: flex;
+  flex-direction: row;
+}
+.sale {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.allplants {
+  display: flex;
+  flex-direction: row;
+}
+.firstvases {
+  display: flex;
+  flex-direction: row;
+}
+.secondvases {
+  display: flex;
+  flex-direction: row;
+}
+.headings {
+  text-align: center;
+}
+.Featured {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 10px;
+}
+.background {
+  background-image: url(backgroundimage.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 400px;
+  text-align: center;
+}
+.Amazing {
+  display: flex;
+  flex-direction: row;
+}
+.spring {
+  display: flex;
+  flex-direction: row;
+}
+.Aliquan {
+  display: flex;
+  flex-direction: row;
+}
+.cactus {
+  display: flex;
+  flex-direction: row;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Blogs {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  align-items: center;
+}
+#developer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 800px) {
+  #navbar {
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+  #valona {
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+  }
+  .fallsummer {
+    flex-direction: column;
+    gap: 1px;
+  }
+  .inspiration {
+    flex-direction: column;
+  }
+  .sale {
+    flex-direction: column;
+  }
+  .house {
+    flex-direction: column;
+  }
+  .OFF {
+    flex-direction: column;
+  }
+  .potted {
+    display: flex;
+    flex-direction: column;
+  }
+  .headings {
+    text-align: center;
+  }
+  .allplants {
+    flex-direction: column;
+  }
+  .firstvases {
+    flex-direction: column;
+  }
+  .secondvases {
+    flex-direction: column;
+  }
+  .Featured {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .Amazing {
+    flex-direction: column;
+  }
+  .spring {
+    flex-direction: column;
+  }
+  .spring {
+    flex-direction: column;
+  }
+  .Aliquan {
+    flex-direction: column;
+  }
+  .cactus {
+    display: flex;
+    flex-direction: column;
+  }
+  .Blogs {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .images {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .cactusimage {
+    width: 100px;
+    height: 200px;
+  }
+  #product{
+    width: 300px;
+    height: 200px;
+  }
+  #drift{
+    width: 300px;
+    height: 200px;
+  }
+}
+
